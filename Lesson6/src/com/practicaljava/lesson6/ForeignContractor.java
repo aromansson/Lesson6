@@ -1,6 +1,6 @@
 package com.practicaljava.lesson6;
 
-public class ForeignContractor extends Person {
+public class ForeignContractor extends Person implements Payable {
 	public ForeignContractor(String name) {
 		super(name);
 	}
